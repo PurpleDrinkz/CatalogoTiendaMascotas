@@ -20,13 +20,13 @@
         @foreach($mascotas as $mascota)
 
         <tr>
-            <td>{{ $mascota->nombre}}/td>
-            <td>{{ $mascota->precio}</td>
+            <td>{{ $mascota->nombre}}</td>
+            <td>{{ $mascota->precio}}</td>
             <td>
             <button>Editar</button>
             <button>Borrar</button>
             </td>
-            <td>{{}}</td>
+          
         
         </tr>
         @endforeach

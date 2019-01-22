@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:8889
--- Generation Time: Jan 17, 2019 at 07:40 PM
+-- Generation Time: Jan 22, 2019 at 01:54 AM
 -- Server version: 5.7.23
 -- PHP Version: 7.2.10
 
@@ -11,7 +11,7 @@ SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
 --
--- Database: `catalogo`
+-- Database: `Mascotas`
 --
 
 -- --------------------------------------------------------
@@ -52,6 +52,28 @@ CREATE TABLE `mascotas` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
+-- Dumping data for table `mascotas`
+--
+
+INSERT INTO `mascotas` (`id`, `id_especie`, `nombre`, `precio`, `nacimiento`, `foto`) VALUES
+(1, 9, 'Misifu', 50000, '2019-01-09', ''),
+(2, 9, 'Gato volador', 85000000, '2019-01-08', ''),
+(3, 9, 'Pinshi gato loco', 654654, '2019-01-01', ''),
+(4, 9, 'Mittens', 4848, '2019-01-09', ''),
+(5, 11, 'Pablo Escobar', 8000000, '2019-01-09', ''),
+(6, 11, 'El Ezequiel', 80000, '2019-01-02', ''),
+(7, 13, 'Jijis', 1234, '2019-01-01', ''),
+(8, 10, 'Lenny', 70000000, '2019-01-03', ''),
+(9, 9, 'Misifu', 50000, '2019-01-09', ''),
+(10, 9, 'Gato volador', 85000000, '2019-01-08', ''),
+(11, 9, 'Pinshi gato loco', 654654, '2019-01-01', ''),
+(12, 9, 'Mittens', 4848, '2019-01-09', ''),
+(13, 11, 'Pablo Escobar', 8000000, '2019-01-09', ''),
+(14, 11, 'El Ezequiel', 80000, '2019-01-02', ''),
+(15, 13, 'Jijis', 1234, '2019-01-01', ''),
+(16, 10, 'Lenny', 70000000, '2019-01-03', '');
+
+--
 -- Indexes for dumped tables
 --
 
@@ -82,7 +104,7 @@ ALTER TABLE `especies`
 -- AUTO_INCREMENT for table `mascotas`
 --
 ALTER TABLE `mascotas`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- Constraints for dumped tables
