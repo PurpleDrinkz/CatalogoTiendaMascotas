@@ -7,7 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-   <button>Agregar mascota</button>
+    <a href="{{route('mascotas.create')}}">
+        <button>Agregar mascota</button>
+    </a>
    <table>
         <thead>
                 <tr>
