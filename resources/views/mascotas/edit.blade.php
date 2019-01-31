@@ -31,14 +31,14 @@
             
             <br/>
             <label>Precio</label>
-            <input required type="text" name="precio" placeholder="Precio de la mascota" value="{{$mascota->nombre}}">
+            <input required type="text" name="precio" placeholder="Precio de la mascota" value="{{$mascota->precio}}">
             
             <br/>
             <label>Fecha de nacimiento</label>
-            <input required type="date" name="nacimiento">
+            <input required type="date" name="nacimiento" value="{{$mascota->nacimiento}}">
             
             <br/>
-            <button type="submit">Agregar nueva mascota</button>
+            <button type="submit">Actualizar mascota</button>
 
     
     </form>

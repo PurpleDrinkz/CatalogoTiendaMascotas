@@ -29,7 +29,11 @@
             <button>Editar</button>
             </a>
             <a>
-            <button>Borrar</button>
+            <form method="POST" action="{{route('mascotas.destroy', $mascota->id)}}">
+            @csrf 
+            @method('DELETE')
+            <button tyoe="submit">Borrar</button>
+            </form>
             </a>
             </td>
           
